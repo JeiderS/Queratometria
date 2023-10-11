@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/logo.ico">
+
+</head>
+<body>
+   
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#"><span>Inicio</span></a></li>
+                <li><a href="#"><span>Objetivo</span></a></li>
+                <li><a href="#"><span>Registro</span></a></li>
+                <li><a href="#"><span>Leyes</span></a></li>
+            </ul>
+        </nav>
+    </header>
+<main class="main_cal">
+    <div class="titulo">
+        <h3 class="nombre">Calculadora Queratometrica</h3>
+    </div>
+    <div class="container">
+        <div class="entrada_1">
+       
+            <input type="number" id="meridianoPlano" placeholder="Meridiano Plano :">
+        </div>
+        <div class="entrada_1">
+            
+            <input type="number" id="meridianoCurvo" placeholder="Meridiano Curvo :">
+        </div>
+        <div class="entrada_1">
+            
+            <input type="number" id="ejeMasPlano" placeholder="Eje más Plano :">
+        </div>
+        <button class="boton" onclick="calcular()">Calcular</button>
+        <div id="resultado" class="result"></div>
+    </div>
+</main>
+
+    <script src="script.js"></script>
+</body>
+</html>

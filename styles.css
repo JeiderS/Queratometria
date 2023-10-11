@@ -1,0 +1,158 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    font-family: "Work Sans", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* estilos del hesder */
+header {
+    background-color: #fbecec; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main{
+    padding-top: 120px;
+}
+
+.navbar {
+    background: linear-gradient(rgb(113, 117, 117), rgb(83, 87, 88));
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 35px 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 20px;
+    
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    
+    font-weight: bold;
+}
+
+.nav-links span{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+.titulo{
+    align-content: center;
+
+    text-align: center;
+    
+    }
+
+.nombre{
+    margin-top: 100px;
+    font-size: 40px;
+    
+}
+
+
+.container{
+    width: 500px;
+    height: 400px;
+    margin: 1% auto;
+    background: linear-gradient(rgba(78, 71, 71, 0.507),rgba(22, 62, 155, 0.123));
+
+
+}
+
+.main_cal{
+    margin-top: -50px;
+}
+
+#resultado {
+    text-align: left; 
+    padding: 5px; 
+
+}
+
+
+
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.input-container {
+    margin: 10px 0;
+}
+.entrada_1{
+    padding: 1px;
+    margin-left: 110px;
+}
+
+input[type="number"] {
+    width: 70%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 10%;
+}
+
+.boton{
+        background-color: #007BFF;
+        color: #fff;
+        padding: 20px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-left: 190px;
+        margin-top: 3%;
+}
+
+.boton:hover{
+    background-color: #0056b3;
+}
+
+.result {
+ 
+    font-size: 18px;
+    white-space: pre-line;
+    border: 3px solid #ede5e5;
+    border-radius: 4px;
+    margin-top: 20px;
+    background-color: #fff;
+
+}
+
+
+
+
+
